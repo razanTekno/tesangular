@@ -1,5 +1,32 @@
-.home{
+.image-container{
+  position: relative;
+  margin: 0;
+  padding: 3px;
+}
+
+.image-container img{
   width: 100%;
   height: 100%;
-  background-color: #FFFFFF;
+  object-fit: cover;
+}
+.image-container .image-text{
+  position: absolute;
+  bottom: 10px;
+  left: -5px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.image-container .image-text-upload-your-own{
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.image-container .upload-your-own{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border:1px solid #f3e4cf;
 }

@@ -80,19 +80,3 @@ display: block;
   margin-left: 10px;
 }
 
-/*
-.panel-activity .panel-activity-content .list-activity .col .border-cancel::after {
-  width: 0px;
-  height: 0px;
-  background: #fff;
-  content: url('/src/assets/img/icons/cancel.png');
-  position: absolute;
-  bottom: 0;
-}
-.panel-activity .panel-activity-content .list-activity .col .border-cancel::after {
-  left: 0;
-  border-top: 10px solid lightblue;
-  border-right: 10px solid lightblue;
-  border-left: 10px solid white;
-  border-bottom: 10px solid white;
-} */

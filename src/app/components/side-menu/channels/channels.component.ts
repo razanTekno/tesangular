@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./channels.component.css']
 })
 export class ChannelsComponent implements OnInit {
-
+  loop:any[] = [1,2,3,4];
   constructor() { }
 
   ngOnInit(): void {

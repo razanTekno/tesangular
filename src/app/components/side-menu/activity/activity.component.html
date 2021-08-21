@@ -1,1 +1,24 @@
-Aktifi
+
+<div class="row panel-activity">
+  <div class="row panel-activity-header">
+    <div class="col">
+      <h3 class="title">Activity</h3>
+    </div>
+    <div class="col">
+     <a href="" class="sublink">View Timeline / Filter Activity</a>
+    </div>
+  </div>
+  <div class="row panel-activity-content">
+    <div class="row list-activity" *ngFor="let d of loop">
+      <div class="col">
+        <img  src="https://images.unsplash.com/photo-1553166272-e69910ab5ae1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" />
+        <div class="information">
+          <p>John Stainlor commented</p>
+          <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+          <p>2 second ago</p>
+        </div>
+        <i class="fa fa-times border-cancel" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+</div>

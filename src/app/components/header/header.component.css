@@ -1,6 +1,6 @@
 .navbar .navbar-brand {
   color: #f3e4cf;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: lighter;
 }
 .navbar .brand-bold {
@@ -66,10 +66,6 @@
   .navbar form{
     width: calc(75vw - 50px);
   }
-
-
-
-
 }
 
 .navbar .menu-mobile .container-menu{
@@ -80,4 +76,8 @@
   top: -15px;
   right: -15px;
   border-radius: 100%;
+}
+
+.breadcrumbNav{
+  margin-top: 20px;
 }

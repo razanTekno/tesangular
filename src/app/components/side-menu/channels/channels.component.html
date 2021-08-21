@@ -1,1 +1,24 @@
-<p>channels works!</p>
+
+<div class="row panel-channels">
+  <div class="row panel-channels-header">
+    <div class="col">
+      <h3 class="title">channels</h3>
+    </div>
+    <div class="col">
+     <a href="" class="sublink">View Timeline / Filter channels</a>
+    </div>
+  </div>
+  <div class="row panel-channels-content">
+    <div class="row list-channels" *ngFor="let d of loop">
+      <div class="col">
+        <div class="container">
+          <img src="https://images.unsplash.com/photo-1553166272-e69910ab5ae1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Norway" style="width:100%;">
+          <div class="text-block">
+            <h4>Nature</h4>
+            <p>What a beautiful sunrise</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

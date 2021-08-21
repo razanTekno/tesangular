@@ -1,0 +1,27 @@
+.sublink{
+  margin:0;
+}
+.panel-channels{
+  width: 100%;
+  background: white;
+  margin: 20px 0 0 0;
+}
+.panel-channels .panel-channels-header{
+  width: 100%;
+  margin: 0;
+  border-bottom: 0.25rem solid #f3e4cf;
+}
+.panel-channels .panel-channels-header .col:nth-child(1),
+.panel-channels .panel-channels-header .col:nth-child(2){
+  margin: auto;
+}
+
+.panel-channels .panel-channels-header .col:nth-child(2){
+  font-size: 14px;
+  text-align: right;
+}
+
+
+.panel-channels .panel-channels-content{
+
+}

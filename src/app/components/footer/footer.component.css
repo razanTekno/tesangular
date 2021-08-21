@@ -8,6 +8,14 @@
   background-color: white;
   height: 50px;
 }
+.footer-website{
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
 
 .footer-mobile .col:nth-child(1),
 .footer-mobile .col:nth-child(2),

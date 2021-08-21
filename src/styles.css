@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
-  font-family: 'roboto';
-  src: url('assets/fonts/Roboto/Roboto-Regular.ttf');
+  font-family: 'quicksand';
+  src: url('assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf');
 }
 *{
-  font-family: 'roboto';
+  font-family: 'quicksand';
 }
 body, body .nav-bar-dev{
   background: #953e46;

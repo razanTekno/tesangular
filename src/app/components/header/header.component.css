@@ -65,12 +65,6 @@
 .navbar .profile .profile-name, .navbar .profile .profile-profession{
   color: #f3e4cf;
 }
-
-
-.dropdown:hover .dropdown-menu{
-  display: block;
-
-}
 .dropdown-menu{
   margin-top: 0;
 }

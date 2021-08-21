@@ -9,6 +9,7 @@ import { ChannelsComponent } from './components/side-menu/channels/channels.comp
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SideMenuParentComponent } from './components/side-menu/side-menu-parent/side-menu-parent.component';
+import { SwitchWindowDirective } from './directives/switch-window/switch-window.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SideMenuParentComponent } from './components/side-menu/side-menu-parent
     ChannelsComponent,
     FooterComponent,
     HomeComponent,
-    SideMenuParentComponent
+    SideMenuParentComponent,
+    SwitchWindowDirective
   ],
   imports: [
     BrowserModule,

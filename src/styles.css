@@ -9,8 +9,17 @@
 body, body .nav-bar-dev{
   background: #953e46;
 }
-@media only screen and (max-width: 991px) {
+/* @media only screen and (max-width: 991px) {
   body {
     background-color: lightblue;
   }
-}
+} */
+
+/* @media screen
+  and (max-width: 320px)
+  and (max-width: 640px)
+ {
+    body {
+      background-color: lightblue;
+    }
+} */

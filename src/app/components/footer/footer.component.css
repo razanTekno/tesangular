@@ -1,0 +1,22 @@
+.footer-mobile{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.footer-mobile .col:nth-child(1),
+.footer-mobile .col:nth-child(2),
+.footer-mobile .col:nth-child(3){
+  display: flex;
+}
+.footer-mobile .col:nth-child(1) button{
+  margin: auto;
+}
+.footer-mobile .col:nth-child(2) button{
+  margin: auto;
+}
+.footer-mobile .col:nth-child(3) button{
+  margin: auto;
+}

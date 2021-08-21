@@ -1,9 +1,11 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">SocialNetwork</a>
-    <form
-      class="form-inline"
-      style="margin: auto 0 auto 0; width: calc(35vw - 50px)"
-    >
+  <a class="navbar-brand text" href="#">
+    SocialNetwork
+  </a>
+  <a class="navbar-brand logo" href="#">
+    SN
+  </a>
+    <form class="form-inline" >
       <div class="input-group" style="width: 100%">
         <input
           type="text"
@@ -17,38 +19,54 @@
         </div>
       </div>
     </form>
-    <button class="btn btn-secondary" type="button" style="margin: auto">
-      <i class="fa fa-arrow-up" aria-hidden="true"></i>
-      Upload
-    </button>
-    <ul class="navbar-nav mr-auto float-right" style="margin: auto">
-      <li class="nav-item dropdown">
-        <div class="row profile">
-          <div class="row">
-            <div class="col image-container">
-              <img
-                src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=702&q=80"
-              />
+
+      <ul class="navbar-nav menu-website">
+        <li>
+         <button class="btn btn-secondary" type="button" style="margin-left : 20px">
+           <i class="fa fa-arrow-up" aria-hidden="true"></i>
+           Upload
+         </button>
+        </li>
+      </ul>
+     <ul class="navbar-nav mr-auto menu-website" style="margin: auto">
+       <li class="nav-item dropdown">
+         <div class="row profile">
+           <div class="row">
+             <div class="col image-container">
+               <img
+                 src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=702&q=80"
+               />
+             </div>
+             <div class="profile-information-parent" style="position: relative">
+               <span class="badge badge-pill badge-primary">0</span>
+               <div class="col profile-information">
+                 <div class="profile-name">Alif</div>
+                 <div class="profile-profession">programmer</div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="dropdown-menu">
+           <a href="#" class="dropdown-item">
+             <i class="fa fa-user" aria-hidden="true"></i>
+             Profile
+           </a>
+           <a href="#" class="dropdown-item">
+             <i class="fa fa-sign-out" aria-hidden="true"></i>
+             Logout
+           </a>
+         </div>
+       </li>
+     </ul>
+
+  <ul class="navbar-nav menu-mobile">
+      <li class="nav-item">
+          <a class="nav-link" href="#">
+            <div class="container-menu">
+              <span class="badge badge-pill badge-primary">&nbsp;</span>
+              <i class="fa fa-bars" aria-hidden="true"></i>
             </div>
-            <div class="profile-information-parent" style="position: relative">
-              <span class="badge badge-pill badge-primary">0</span>
-              <div class="col profile-information">
-                <div class="profile-name">Alif</div>
-                <div class="profile-profession">programmer</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item">
-            <i class="fa fa-user" aria-hidden="true"></i>
-            Profile
           </a>
-          <a href="#" class="dropdown-item">
-            <i class="fa fa-sign-out" aria-hidden="true"></i>
-            Logout
-         </a>
-        </div>
       </li>
-    </ul>
+  </ul>
 </nav>

@@ -59,3 +59,20 @@
   object-fit: cover;
   border:1px solid #f3e4cf;
 }
+
+
+@media only screen and (max-width: 700px) {
+  .row-title{
+    margin-top: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .image-container .right-text{
+    top:10px;
+  }
+  .image-container .image-text-upload-your-own{
+    font-size:12px;
+  }
+}

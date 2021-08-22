@@ -84,3 +84,28 @@ display: block;
   color:#ffffff;
 }
 
+@media only screen and (max-width: 700px) {
+  .panel-activity{
+    margin-top: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .panel-activity .panel-activity-content .list-activity .col .information .name{
+    font-size: 14px;
+  }
+  .panel-activity .panel-activity-content .list-activity .col .information .description{
+    font-size: 12px;
+  }
+  .panel-activity .panel-activity-content .list-activity .col .information .lastupdate{
+    font-size: 10px;
+  }
+  .panel-activity .panel-activity-header .col:nth-child(1) .title{
+    font-size: 20px;
+  }
+  .panel-activity .panel-activity-header .col:nth-child(2){
+    font-size: 12px;
+}
+}
+

@@ -1,3 +1,13 @@
+.row-content{
+  margin:0;
+}
+.row-title{
+  margin-top: 10px;
+  color: white;
+}
+.row-title .col:nth-child(1) p{
+  font-size: 16px;
+}
 .image-container{
   position: relative;
   margin: 0;
@@ -9,14 +19,33 @@
   height: 100%;
   object-fit: cover;
 }
+.image-container .main-text-video-title{
+  position: absolute;
+  bottom: 30px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  left: -5px;
+}
 .image-container .image-text{
   position: absolute;
   bottom: 10px;
-  left: -5px;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.image-container .left-text{
+  left: -5px;
+  font-size:12px;
+}
+.image-container .right-text{
+  right: -5px;
+  font-size:12px;
+
+}
+
 .image-container .image-text-upload-your-own{
   position: absolute;
   bottom: 10px;

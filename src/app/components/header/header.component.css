@@ -1,3 +1,4 @@
+
 .navbar .navbar-brand {
   color: #f3e4cf;
   font-size: 1.5rem;
@@ -49,7 +50,9 @@
 }
 
 
-
+.navbar .navbar-brand.text span{
+color: #f3e4cf;
+}
 .navbar .navbar-brand.text,.navbar .menu-website{
   display: block;
 }
@@ -77,7 +80,26 @@
   right: -15px;
   border-radius: 100%;
 }
-
 .breadcrumbNav{
-  margin-top: 20px;
+  border-top: 1px solid #f3e4cf;
+  border-bottom: 1px solid #f3e4cf;
+  margin-bottom: 20px;
+}
+.breadcrumbNav .breadcrumb{
+  background: #953e46;
+  color: #f3e4cf;
+  margin-bottom: 0;
+}
+.breadcrumbNav .breadcrumb li{
+  color: #f3e4cf;
+}
+.form-inline input{
+  border-radius: 0;
+  background: #f3e4cf;
+}
+.form-inline button{
+  background: #f3e4cf;
+  border-color: #f3e4cf;
+  border-radius: 0;
+  color: #953e46;
 }

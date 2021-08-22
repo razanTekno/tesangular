@@ -3,9 +3,13 @@
 }
 .panel-channels{
   width: 100%;
-  background: white;
+  background: #953e46;
   margin: 20px 0 0 0;
 }
+.panel-channels .panel-channels-header .title, .panel-channels .panel-channels-header .col:nth-child(2){
+  color: #f3e4cf;
+}
+
 .panel-channels .panel-channels-header{
   width: 100%;
   margin: 0;

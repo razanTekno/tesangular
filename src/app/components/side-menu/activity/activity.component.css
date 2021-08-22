@@ -3,8 +3,11 @@
 }
 .panel-activity{
   width: 100%;
-  background: white;
+  background:#953e46;
   margin: 0;
+}
+.panel-activity .panel-activity-header .title,.panel-activity .panel-activity-header .col:nth-child(2){
+  color: #ffffff;
 }
 .panel-activity .panel-activity-header{
   width: 100%;
@@ -78,5 +81,6 @@ display: block;
 }
 .panel-activity .panel-activity-content .list-activity .col .information{
   margin-left: 10px;
+  color:#ffffff;
 }
 

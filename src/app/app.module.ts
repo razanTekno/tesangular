@@ -10,6 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SideMenuParentComponent } from './components/side-menu/side-menu-parent/side-menu-parent.component';
 import { SwitchWindowDirective } from './directives/switch-window/switch-window.directive';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SwitchWindowDirective } from './directives/switch-window/switch-window.
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

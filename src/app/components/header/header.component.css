@@ -103,3 +103,16 @@ color: #f3e4cf;
   border-radius: 0;
   color: #953e46;
 }
+
+@media only screen and (max-width: 500px) {
+  .image-container .right-text{
+    top:10px;
+  }
+  .image-container .image-text-upload-your-own{
+    font-size:12px;
+  }
+  .breadcrumbNav .breadcrumb{
+
+    font-size: 12px;
+  }
+}
